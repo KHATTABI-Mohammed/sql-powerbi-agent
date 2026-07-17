@@ -1,0 +1,9 @@
+[project]
+name = "sql-powerbi-agent"
+version = "0.1.0"
+description = "Agent IA conversationnel NL -> SQL (LangGraph, RAG/ChromaDB, Pydantic, Langfuse)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
